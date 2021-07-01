@@ -136,6 +136,7 @@ DATABASES_APPS_MAPPING = {
     'polls': 'default',
     'polls2': 'db1',
 }
+from my_blog.database_app_router import DatabaseAppsRouter
 
 DATABASE_ROUTERS = ['my_blog.database_app_router.DatabaseAppsRouter']
 
